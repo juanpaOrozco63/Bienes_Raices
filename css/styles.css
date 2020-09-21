@@ -7,6 +7,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1.h2,
+h3,
+h4 {
+    font-weight: 300;
+}
+
 .bg-success {
     background-color: var(--primario) !important;
 }
@@ -16,11 +22,53 @@ body {
         background-color: transparent !important;
     }
     .header {
-        position: realtive;
+        position: relative;
     }
     .header .barra {
         position: absolute;
         z-index: 100;
         width: 100%;
     }
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.dropdown-menu {
+    background-color: #71b100;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    text-transform: uppercase;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e08709;
+}
+
+
+/* Caption carrousel */
+
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+
+.bloque-info p {
+    font-size: 1.4rem;
+}
+
+.btn-warning {
+    background-color: #e08709;
+    color: white;
+    border-color: #e08709;
+    font-weight: 700;
 }
