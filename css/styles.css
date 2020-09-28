@@ -178,3 +178,18 @@ h4 {
 
 
 /* FinTestimoniales */
+
+
+/* Footer */
+
+.footer.bg-dark {
+    background-color: #333333 !important;
+}
+
+.footer .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+/* Fin Footer */
